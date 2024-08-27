@@ -7,12 +7,12 @@ export default function Navbar() {
         <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
           <Link href="/">
             <span className="flex items-center space-x-2 font-medium text-emerald-700">
-              <span>Ashtanga Yoga Santa Fe</span>
+              <span>Ashtanga Yoga Litoral</span>
             </span>
           </Link>
         </div>
 
-        <div className="hidden mr-3 space-x-4 lg:flex nav__item text-emerald-800">
+        <div className="hidden mr-3 space-x-4 lg:flex nav__item text-emerald-800 items-center">
           <Link href="/" locale="es" className="hover:underline">
             Español
           </Link>
