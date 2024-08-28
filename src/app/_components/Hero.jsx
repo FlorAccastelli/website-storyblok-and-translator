@@ -10,8 +10,9 @@ export default function HeroSection() {
           <h1 className="text-4xl font-bold text-emerald-800 leading-snug tracking-tight lg:text-4xl lg:leading-tight">
             Ashtanga Yoga
           </h1>
-          <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl text-emerald-900">
-            Ashtanga Yoga es un método que deriva del Hatha Yoga
+          <p className="py-5 text-xl leading-normal text-emerald-900">
+            Ashtanga Vinyasa Yoga es un método que tiene sus raíces en el Hatha Yoga y como propósito busca gradualmente llevar al practicante a redescubrir su máximo potencial en todos los niveles de conciencia humana: física, psicológica y espiritual.
+            Durante las clases se enseña de forma personalizada, y de acuerdo a la posibilidad personal de cada practicante.
           </p>
           <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl text-emerald-900 underline">
             ¡Estoy aquí para ser tu instructora!
