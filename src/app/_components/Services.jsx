@@ -44,12 +44,12 @@ const ServiceCard = ({ data }) => {
   const { title, subtitle, description, duration } = data;
   return (
     <>
-      <div className="flex flex-col p-6 lg:mx-1 sm:mx-auto max-w-lg text-center rounded-lg border shadow-md bg-pink-400">
-        <h3 className="mb-4 text-2xl font-semibold">{title}</h3>
-        <p className="font-light text-xl text-gray-400">{subtitle}</p>
-        <p className="text-xl mt-4">{description}</p>
+      <div className="flex flex-col p-6 lg:mx-1 sm:mx-auto max-w-lg text-center rounded-lg border shadow-md border-pink-300">
+        <h3 className="mb-4 text-2xl font-semibold text-emerald-800">{title}</h3>
+        <p className="font-light text-gray-500">{subtitle}</p>
+        <p className="mt-4  text-emerald-700">{description}</p>
         <div className="flex justify-center my-8">
-          <span className="mr-2 text-5xl font-bold">{duration}</span>
+          <span className="mr-2 text-3xl font-bold text-emerald-800">{duration}</span>
         </div>
       </div>
     </>
