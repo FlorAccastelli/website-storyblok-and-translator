@@ -14,10 +14,10 @@ export default function Navbar({ data }) {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item text-emerald-800 items-center">
-          <Link href="/" locale="es" className="hover:underline">
+          <Link href="/es" className="hover:underline">
             Español
           </Link>
-          <Link href="/" locale="en" className="hover:underline">
+          <Link href="/en" className="hover:underline">
             English
           </Link>
           <Link 
