@@ -19,7 +19,7 @@ export default function Footer({ data }) {
         <p className="font-light sm:text-base text-sm">{subtitle_contact_email}</p>
       </div>
       <div className="flex flex-col sm:self-start items-center">
-        <div className="flex flex-row space-x-3">
+        <div className="flex flex-row sm:space-x-3 space-x-8">
           <FaInstagramSquare className="text-2xl"/>
           <FaYoutube className="text-2xl"/>
           <FaLinkedin className="text-2xl"/>

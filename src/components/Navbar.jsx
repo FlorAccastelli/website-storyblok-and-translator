@@ -9,8 +9,8 @@ export default function Navbar({ data }) {
         <div className="flex items-center lg:w-2/3 w-2/3 md:w-1/2">
           <Link href="/">
             <span className="flex items-center font-medium text-emerald-700">
-              <span className="hidden md:block">{title}</span>
-              <span className="block md:hidden bg-emerald-800 text-white rounded-md px-3 py-2">AYL</span>
+              <span className="hidden sm:block">{title}</span>
+              <span className="block sm:hidden bg-emerald-800 text-white rounded-md px-3 py-2">AYL</span>
             </span>
           </Link>
         </div>
