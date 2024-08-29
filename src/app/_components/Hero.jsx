@@ -20,13 +20,13 @@ export default function HeroSection({ data = {} }) {
           </p>
         </div>
         <div className="lg:w-1/2 flex justify-center">
-          {/* <Image
+          <Image
             className="rounded-full object-cover" 
             src={picture.filename}
             width={480}
             height={270}
             alt="Ashtanga Yoga"
-          /> */}
+          />
         </div>
       </div>
     </Container>
