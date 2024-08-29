@@ -1,30 +1,35 @@
 import Link from "next/link";
+import { RiCalendarScheduleFill } from "react-icons/ri";
 
 export default function Navbar({ data }) {
   const { title, cta_button_text } = data;
   return (
-    <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
-        <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
+    <div className="w-[80%] mx-auto">
+      <nav className="container flex items-center py-8 mx-auto">
+        <div className="flex items-center lg:w-2/3 w-2/3 md:w-1/2">
           <Link href="/">
-            <span className="flex items-center space-x-2 font-medium text-emerald-700">
-              <span>{title}</span>
+            <span className="flex items-center font-medium text-emerald-700">
+              <span className="hidden md:block">{title}</span>
+              <span className="block md:hidden bg-emerald-800 text-white rounded-md px-3 py-2">AYL</span>
             </span>
           </Link>
         </div>
 
-        <div className="hidden mr-3 space-x-4 lg:flex nav__item text-emerald-800 items-center">
-          <Link href="/es" className="hover:underline">
-            Español
+        <div className="flex justify-end text-emerald-800 items-center lg:w-1/2 md:w-1/2 w-full sm:w-1/2">
+          <Link href="/es" className="hover:underline mx-4">
+            <span className="hidden md:block">Español</span>
+            <span className="block md:hidden">ES</span>
           </Link>
           <Link href="/en" className="hover:underline">
-            English
+            <span className="hidden md:block">English</span>
+            <span className="block md:hidden">EN</span>
           </Link>
           <Link 
             href="#contact"
-            className="px-6 py-2 text-white bg-emerald-800 rounded-md md:ml-5"
+            className="px-3 py-2 text-white bg-emerald-800 rounded-md ml-4 text-center"
           >
-            {cta_button_text}
+            <span className="hidden sm:block">{cta_button_text}</span> 
+            <RiCalendarScheduleFill className="block sm:hidden" /> 
           </Link>
         </div>
       </nav>
